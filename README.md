@@ -1,7 +1,7 @@
 # mrcdctr-portfolio
 mrcdctr-portfolio
 # Portfolio by [Marco Doctor]
-Welcome to my AI portfolio showcasing Python and AI projects. I am passionate about learning and developing AI solutions.
+Welcome to my portfolio showcasing Python and AI projects. I am passionate about learning and developing AI solutions.
 
 ## Projects
 1. [Text Analyzer](https://github.com/MudmanX/mrcdctr-portfolio/blob/main/text_analyzer.py))
