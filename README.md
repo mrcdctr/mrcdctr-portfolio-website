@@ -9,7 +9,7 @@ Welcome to my portfolio showcasing Python and AI projects. I am passionate about
 3. [Simple Chatbot](https://github.com/MudmanX/mrcdctr-portfolio/blob/main/chatbot.py)
 4. [Simple Text Analyzer App](https://github.com/MudmanX/mrcdctr-portfolio/blob/main/text_analyzer_app.py)
 
-## Data apps Apps
+## Data Apps
 1. [GDP Dashboard (Live Demo)](https://gdp-dashboard-44b0eke58uz.streamlit.app/)
 2. [Movie Dataset (Live Demo)](https://movies-dataset-prn370gvp8.streamlit.app/)
 
