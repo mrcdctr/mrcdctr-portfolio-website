@@ -8,6 +8,7 @@ Welcome to my portfolio showcasing Python and AI projects. I am passionate about
 2. [Image Classifier](https://github.com/MudmanX/mrcdctr-portfolio/blob/main/image_classifier.py)
 3. [Simple Chatbot](https://github.com/MudmanX/mrcdctr-portfolio/blob/main/chatbot.py)
 4. [Simple Text Analyzer App](https://github.com/MudmanX/mrcdctr-portfolio/blob/main/text_analyzer_app.py)
+5. [Rock, Paper, Scissors Game in Python](https://github.com/MudmanX/rock-paper-scissors)
 
 ## Data Apps
 1. [GDP Dashboard (Live Demo)](https://gdp-dashboard-44b0eke58uz.streamlit.app/)
