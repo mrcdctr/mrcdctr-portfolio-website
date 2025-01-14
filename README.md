@@ -1,5 +1,5 @@
 # mrcdctr-portfolio
-# Portfolio by [Marco Doctor]
+
 Welcome to my portfolio showcasing Python and AI projects. I am passionate about learning and developing AI solutions.
 
 ## Simple Projects
