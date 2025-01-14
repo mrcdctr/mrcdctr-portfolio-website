@@ -1,5 +1,4 @@
 # mrcdctr-portfolio
-mrcdctr-portfolio
 # Portfolio by [Marco Doctor]
 Welcome to my portfolio showcasing Python and AI projects. I am passionate about learning and developing AI solutions.
 
@@ -25,4 +24,4 @@ Welcome to my portfolio showcasing Python and AI projects. I am passionate about
 ## About Me
 I am an aspiring AI specialist with experience in Python, AI, and machine learning. Let's connect on [LinkedIn](https://www.linkedin.com/in/marco-doctor-ab0a57140/).
 
----
+
