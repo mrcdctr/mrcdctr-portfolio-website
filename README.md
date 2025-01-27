@@ -1,6 +1,6 @@
-# mrcdctr-portfolio
+# mrcdctr
 
-Welcome to my portfolio showcasing Python and AI projects. I am passionate about learning and developing AI solutions.
+Aspiring Full Stack Web Developer passionate about building user-friendly and interactive web applications.
 
 ## Simple Projects
 
@@ -16,7 +16,6 @@ Welcome to my portfolio showcasing Python and AI projects. I am passionate about
 1. [Support Tickets (Live Demo)](https://support-tickets-fidtk103j1r.streamlit.app/)
 2. [Intvetory Trackers (Live Demo)](https://inventory-tracker-brj0h5p5ci6.streamlit.app/)
  
-## About Me
-I am an aspiring AI specialist with experience in Python, AI, and machine learning. Let's connect on [LinkedIn](https://www.linkedin.com/in/marco-doctor-ab0a57140/).
+
 
 
