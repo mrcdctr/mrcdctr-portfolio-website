@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Marco Doctor, an aspiring full-stack web developer showcasing projects and skills.">
+    <meta name="keywords" content="Marco Doctor, portfolio, full-stack developer, web developer">
+    <title>Marco Doctor - Portfolio</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #e9ecef;
+        }
+
+        .hero img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: #555;
+            max-width: 600px;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        section p {
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: #666;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Contact Section */
+        .contact form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .contact label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div>Marco Doctor</div>
+        <div>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/ID COVER.png" alt="Marco Doctor">
+        <h1>Marco Doctor</h1>
+        <p>Aspiring Full Stack Web Developer passionate about building user-friendly and interactive web applications.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Marco, an aspiring full-stack developer with a knack for problem-solving and a drive for continuous learning.
+            I enjoy crafting clean, user-friendly designs and building efficient backend systems.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are a few projects that showcase my skills and interests in web development.</p>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A description of this project and the technologies used.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A description of this project and the technologies used.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>A description of this project and the technologies used.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Python Projects Section -->
+    <section id="python-projects">
+        <h2>Python Projects</h2>
+        <p>Here are some of the Python projects I’ve worked on:</p>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Python Cheat Sheet</h3>
+                <p>A curated collection of Python syntax, tips, and examples for quick reference.</p>
+                <a href="https://github.com/mrcdctr/python-cheat-sheet" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Python Developer Course</h3>
+                <p>Resources and projects created while taking a Python developer course.</p>
+                <a href="https://github.com/mrcdctr/python-developer-course" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Meme Generator</h3>
+                <p>A Python application for generating memes with custom captions.</p>
+                <a href="https://github.com/mrcdctr/meme-generator" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Web Scraping App</h3>
+                <p>A tool for scraping and analyzing data from websites using Python.</p>
+                <a href="https://github.com/mrcdctr/web-scraping-app" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Password Vault</h3>
+                <p>A secure password management application built with Python.</p>
+                <a href="https://github.com/mrcdctr/password-vault" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to discuss opportunities or collaborations!</p>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Marco Doctor. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
