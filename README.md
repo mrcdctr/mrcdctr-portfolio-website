@@ -12,7 +12,7 @@ Welcome to my personal portfolio website! This website showcases my journey as a
 ---
 
 ## About Me
-Hi! I'm Marco Doctor, an aspiring Full Stack Web Developer passionate about building user-friendly and interactive web applications. I enjoy solving problems, crafting clean designs, and building efficient backend systems. My portfolio reflects my dedication to continuous learning and professional growth.
+Hi! I'm Marco Doctor, an aspiring Web Developer passionate about building user-friendly and interactive web applications. I enjoy solving problems, crafting clean designs, and building efficient backend systems. My portfolio reflects my dedication to continuous learning and professional growth.
 
 ---
 
