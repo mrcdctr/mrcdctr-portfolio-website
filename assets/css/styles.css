@@ -137,9 +137,9 @@ section p {
 }
 
 .project-card {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
