@@ -32,10 +32,12 @@ I have also worked on several Python projects that demonstrate my proficiency in
 2. **[Python Developer Course](https://github.com/mrcdctr/python-developer-course)**: Resources and projects created while taking a Python developer course.
 3. **[Meme Generator](https://github.com/mrcdctr/meme-generator)**: A Python application for generating memes with custom captions.
 4. **[Web Scraping App](https://github.com/mrcdctr/web-scraping-app)**: A tool for scraping and analyzing data from websites using Python.
-5. **[Password Vault](https://github.com/mrcdctr/password-vault)**: A secure password management application built with Python.
+5. **[Password Vault](https://github.com/mrcdctr/password-vault)**: A secure password management 
+application built with Python.
+6. **[Weather Notification System](https://github.com/mrcdctr/weather-notification-system)**: This Python application fetches weather forecasts from the OpenWeatherMap API and sends notifications about significant weather conditions (rain, snow, extreme heat) via Twilio SMS. It also logs notifications to a text file for later reference. The script is highly customizable and allows users to input their location and desired forecast duration.
 
 ---
-## Simple Projects
+## Simple Data & AI Projects
 
 ## Data Apps
 1. [GDP Dashboard (Live Demo)](https://gdp-dashboard-44b0eke58uz.streamlit.app/)

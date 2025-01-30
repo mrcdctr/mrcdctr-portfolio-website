@@ -94,7 +94,7 @@ section {
     justify-content: center;
     text-align: center;
     padding: 50px 20px;
-    background: rgba(0, 0, 0, 0.5); /* Ensure background is applied */
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .hero img {
@@ -113,7 +113,7 @@ section {
 
 .hero p {
     color: #ffffff;
-    max-width: 600px; /* Moved max-width here */
+    max-width: 600px;
 }
 
 /* Section Styles (General) */
@@ -185,4 +185,8 @@ section p {
     cursor: pointer;
     float: right;
     font-size: 1.5rem;
+}
+
+footer {
+    text-align: center; 
 }
