@@ -45,7 +45,18 @@
         <div class="projects">
             <div class="project-card">
                 <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
                 <button class="modal-btn" data-modal="modal1">View More</button>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+                <button class="modal-btn" data-modal="modal2">View More</button>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description of Project 3.</p>
+                <button class="modal-btn" data-modal="modal3">View More</button>
             </div>
         </div>
     </section>
@@ -101,41 +112,32 @@
         &copy; 2025 Marco Doctor. All Rights Reserved.
     </footer>
 
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" data-modal="modal1">&times;</span>
+            <h3>Project 1 Details</h3>
+            <p>Detailed description of Project 1.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" data-modal="modal2">&times;</span>
+            <h3>Project 2 Details</h3>
+            <p>Detailed description of Project 2.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" data-modal="modal3">&times;</span>
+            <h3>Project 3 Details</h3>
+            <p>Detailed description of Project 3.</p>
+        </div>
+    </div>
+
     <!-- Scripts -->
-    <script>
-        document.querySelector('.menu-toggle').addEventListener('click', () => {
-            document.querySelector('.nav-links').classList.toggle('show');
-        });
-
-        document.querySelector('#dark-mode-toggle').addEventListener('click', () => {
-            document.body.toggleAttribute('data-theme', 'dark');
-            localStorage.setItem('theme', document.body.hasAttribute('data-theme') ? 'dark' : 'light');
-        });
-
-        if (localStorage.getItem('theme') === 'dark') {
-            document.body.setAttribute('data-theme', 'dark');
-        }
-
-        document.querySelectorAll('.modal-btn').forEach(button => {
-            button.addEventListener('click', event => {
-                const modalId = event.target.getAttribute('data-modal');
-                document.getElementById(modalId).style.display = 'flex';
-            });
-        });
-
-        document.querySelectorAll('.close-btn').forEach(button => {
-            button.addEventListener('click', event => {
-                const modalId = event.target.getAttribute('data-modal');
-                document.getElementById(modalId).style.display = 'none';
-            });
-        });
-
-        window.addEventListener('click', event => {
-            if (event.target.classList.contains('modal')) {
-                event.target.style.display = 'none';
-            }
-        });
-    </script>
-<script>scr="script.js"</script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -116,7 +116,6 @@ section {
     max-width: 600px; /* Moved max-width here */
 }
 
-
 /* Section Styles (General) */
 section h2 {
     font-size: 2rem;
@@ -137,7 +136,7 @@ section p {
 }
 
 .project-card {
-    background: rgb(255, 255, 255);
+    background: var(--card-bg);
     padding: 20px;
     border: 1px solid #000000;
     border-radius: 8px;
@@ -173,3 +172,17 @@ section p {
     align-items: center;
 }
 
+.modal-content {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.close-btn {
+    cursor: pointer;
+    float: right;
+    font-size: 1.5rem;
+}
