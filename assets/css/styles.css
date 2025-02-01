@@ -190,3 +190,16 @@ section p {
 footer {
     text-align: center; 
 }
+button, .btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: darkblue;
+}

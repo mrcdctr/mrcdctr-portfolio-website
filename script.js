@@ -39,3 +39,32 @@ window.addEventListener('click', event => {
         event.target.style.display = 'none';
     }
 });
+const projects = [
+    {
+        title: "Content Management System (CMS) 🏗",
+        description: "Coming soon...",
+        link: "#"
+    },
+    {
+        title: "E-commerce Website 🛒",
+        description: "Coming soon...",
+        link: "#"
+    },
+    {
+        title: "Chat Application 💬",
+        description: "Coming soon...",
+        link: "#"
+    }
+];
+
+const projectsContainer = document.querySelector(".projects");
+projects.forEach(project => {
+    const projectCard = document.createElement("div");
+    projectCard.classList.add("project-card");
+    projectCard.innerHTML = `
+        <h3>${project.title}</h3>
+        <p>${project.description}</p>
+        <a href="${project.link}" class="btn btn-primary">View More</a>
+    `;
+    projectsContainer.appendChild(projectCard);
+});
