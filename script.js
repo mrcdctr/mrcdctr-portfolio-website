@@ -5,11 +5,16 @@ document.querySelector('.menu-toggle').addEventListener('click', () => {
 
 // Dark Mode Toggle
 document.querySelector('#dark-mode-toggle').addEventListener('click', () => {
-    document.body.toggleAttribute('data-theme', 'dark');
-    localStorage.setItem('theme', document.body.hasAttribute('data-theme') ? 'dark' : 'light');
+    if (document.body.getAttribute('data-theme') === 'dark') {
+        document.body.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+    } else {
+        document.body.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
 });
 
-// Load Dark Mode Preference
+// Load Dark Mode Preference on Page Load
 if (localStorage.getItem('theme') === 'dark') {
     document.body.setAttribute('data-theme', 'dark');
 }
