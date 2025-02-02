@@ -1,0 +1,12 @@
+<style scoped>
+@import "@/assets/css/styles.css";
+@import "@/assets/css/modal.css";
+@import "@/assets/css/navigation.css";
+@import "@/assets/css/footer.css";
+@import "@/assets/css/projects.css";
+@import "@/assets/css/contact.css";
+@import "@/assets/css/dark-mode.css";
+@import "@/assets/css/hero.css";
+@import "@/assets/css/about.css";
+@import "@/assets/css/python-projects.css";
+</style>
