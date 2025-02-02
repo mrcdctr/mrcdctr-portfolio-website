@@ -16,6 +16,8 @@ This is a **personal portfolio website** built using **Vue.js**. It showcases pr
 ✅ **Modals for Project Details** - Click to view project descriptions.  
 ✅ **Contact Form** - Integrated with [Formspree](https://formspree.io) for easy email communication.
 
+(Live Demo)](https://mrcdctr-portfolio-website.netlify.app/)
+
 ## 📂 Project Structure
 ```
 📦 mrcdctr-portfolio
@@ -82,5 +84,7 @@ npm run dev
 Clear cache and reload the page:
 - **Windows/Linux:** `Ctrl + Shift + R`
 - **Mac:** `Cmd + Shift + R`
+
+  
 
 
