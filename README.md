@@ -1,6 +1,5 @@
 # 📌 Marco Doctor - Portfolio Website
-<<<<<<< HEAD
-
+============================================================================================
 ## 🚀 About the Project
 This is a **personal portfolio website** built using **Vue.js**. It showcases projects, skills, and achievements, providing visitors with an overview of Marco Doctor's work as a web developer.
 
@@ -108,4 +107,4 @@ Clear cache and reload the page:
 
 ## ⭐ Contribute
 Feel free to fork this repository, create a feature branch, and submit a PR! 😊
-=============================================================================
+============================================================================================
